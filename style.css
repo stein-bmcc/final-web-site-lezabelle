@@ -9,45 +9,52 @@ html{
     font-size: 100%;
 }
 body{
+    background-color:   rgb(111, 211, 122);
     /* Here you can set your default font-family, line-height 
         You can also use max-width and auto margins to limit the width of the page content
         If you set a background-color here it will be the site background color.
     */
-
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 h1,h2,h3,h4,h5,h6{
     /* Here you can set the font-family for your headings */
 
 }
+.site-title{
 
+}
 /*  ------------------------------------------------------
     HYPERLINK STYLING 
     Change the colors here to match the colors you want for your site.
     ------------------------------------------------------ */ 
 a{
-    color: #1313f1;
+    color: #f1137b;
     text-decoration: none;
-    border-bottom: 1px solid #1313f1;
+    border-bottom: 1px solid #2fc72c;
 }
 a:hover{
     color: #0fa4df;
     border-bottom: 3px solid #0fa4df;
 }
 a:visited{
-    color: #1313f1;
-    border-bottom: 1px solid #1313f1;
+    color: #f08aaf;
+    border-bottom: 1px solid #f1e613;
 }
 
 /*  ------------------------------------------------------
     NAVIGATION STYLING 
-    This turns an unordered list in the nav element to a horizontal menu
-    It also sets the color for the navigation.
+  
     ------------------------------------------------------ */ 
-nav{
-    background-color: #fef6c6;
+    background-color: #0fa4df;
     padding: 10px;
 }
-    nav ul{
+    nav ul{<li><a href="index.html">Home</a></li>
+        <li><a href="morning.html">morning</a></li>
+        <li><a href="afternoon.html">afternoon</a></li>
+        <li><a href="night.html">night</a></li>
+        <li><a href="zoomies.html">zoomies</a></li>
     margin: 0;
     padding: 0;
 }
